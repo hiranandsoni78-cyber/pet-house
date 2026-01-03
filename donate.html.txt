@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>PET HOUSE - Donation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            width: 340px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .logo {
+            width: 80px;
+            border-radius: 50%;
+        }
+        h2 {
+            margin: 10px 0 5px;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+        .amount button {
+            margin: 5px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            background: #e67e22;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .amount button:hover {
+            background: #cf711c;
+        }
+        .qr {
+            width: 200px;
+            margin-top: 15px;
+        }
+        .note {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- DOG LOGO -->
+    <img src="dog.png" alt="Dog Logo" class="logo">
+
+    <h2>🐶 PET HOUSE</h2>
+
+    <p>
+        Main <b>PET HOUSE</b> trust chalati hoon.  
+        Street dogs aur pets ki madad ke liye  
+        aap <b>₹5 se ₹500</b> tak donate kar sakte hain 🙏
+    </p>
+
+    <div class="amount">
+        <button>₹5</button>
+        <button>₹10</button>
+        <button>₹50</button>
+        <button>₹100</button>
+        <button>₹500</button>
+    </div>
+
+    <p>👇 Scan karke donate karein</p>
+
+    <!-- UPI QR -->
+    <img src="qr.png" alt="UPI QR Code" class="qr">
+
+    <div class="note">
+        Aapki madad ❤️🙏
+    </div>
+</div>
+
+</body>
+</html>
